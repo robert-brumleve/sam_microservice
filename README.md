@@ -13,7 +13,8 @@ data = {
         "price": "20"
     }
 }
-Then data is converted to JSON and sent.
+Then call the function copy_data. For example
+copy_data(data)
 
 # server.py - Receive Data
 Nothing to do here. Receives JSON data and converts to dictionary. If "readyForCopying" is True, it deletes the "category" key
