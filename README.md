@@ -19,3 +19,6 @@ copy_data(data)
 # server.py - Receive Data
 Nothing to do here. Receives JSON data and converts to dictionary. If "readyForCopying" is True, it deletes the "category" key
 and changes "readyForCopying" to False. Finally, it sends the data back.
+
+# UML
+![UML Sequence Diagram](./UML.drawio.png)
